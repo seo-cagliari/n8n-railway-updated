@@ -4,6 +4,3 @@ USER root
 
 # Install qrcode npm package
 RUN npm install -g qrcode
-
-# Switch back to node user
-USER node
